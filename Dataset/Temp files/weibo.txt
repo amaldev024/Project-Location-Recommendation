@@ -1,0 +1,13 @@
+user:7012865924
+pass:akash@weibo
+
+india:091
+
+nickname:akash12345
+application:Recommend_project
+App Key:1609319650
+App Secret:1411d28be5a2e2f220c79307a0960ddc
+
+{"access_token":"2.00vxQVgHYYXukBd6cb460a9f4svKED","remind_in":"157679999","expires_in":157679999,"uid":"7040989323","isRealName":"true"}
+
+https://gwu-libraries.github.io/sfm-ui/posts/2016-04-26-weibo-api-guide
