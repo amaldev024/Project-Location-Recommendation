@@ -1,0 +1,34 @@
+LOCATION RECOMMENDATION USING CONTENT-AWARE COLLABORATIVE FILTERING 
+
+Using checkin information along with user and item profile to recommend top k POI's to each user. This model uses
+implicit matrix factorisation which factorises the data into user-factor and item factor matrices. Popular location 
+recommendation algorithms - Mrec,LightFM,Implicit are compared and perfomance evaluated on multiple factors.
+
+Datasets:
+Checkin data [checkin_bj_uniq.txt]
+ItemProfile  [poiInfo_jiepang.txt]
+UserProfile	 [weiboUserProfile_csv.txt]
+
+User Profile is further extended to include tweets from each user to handle cold start problem. Tweets are obtainted
+from social network sites [Weibo] and scrapped and processed using necessary tools. 
+https://github.com/xarrow/weibo-scraper
+https://github.com/cryptum169/rake_for_chinese
+https://github.com/fxsjy/jieba
+
+
+Alorithms evaluated:
+Mrec - [Evaluate_matlab.ipynb]
+https://github.com/DefuLian/recsys
+
+LightFM - [Evaluate_lightfm.ipynb]
+https://github.com/lyst/lightfm
+
+Implicit - [Evaluate_implicit.ipynb]
+https://github.com/benfred/implicit
+
+Graphs are generated based on results obtained.
+Sample outputs are available in Output folder.
+Graphs and other evaluation results are available in Project Report.
+
+
+
